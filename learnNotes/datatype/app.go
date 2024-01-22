@@ -27,4 +27,9 @@ func main() {
 	*var2 = "kumar"
 	fmt.Println(var1)
 
+	var map1 = make(map[string]string)
+	map1["name"] = "Nandiesh"
+	map1["age"] = "35"
+
+	fmt.Println("Map : ", map1)
 }
